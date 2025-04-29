@@ -18,21 +18,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "thomasdinh2k"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thomasdinh2k&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/thomasdinh2k/learn-css-huckleberry.git",
-    "accountId": "c0a4c020-9df9-49ca-ba81-4a8a35a05d9d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thomasdinh2k/learn-css-huckleberry.git&quot;,
+    &quot;accountId&quot;: &quot;c0a4c020-9df9-49ca-ba81-4a8a35a05d9d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2wOpaudeu5Ix0RGn5gU9dOGfPXS" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -47,6 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dnstung/style",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745922540759</updated>
-      <workItem from="1745922542285" duration="2488000" />
+      <workItem from="1745922542285" duration="2541000" />
+      <workItem from="1745922393571" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

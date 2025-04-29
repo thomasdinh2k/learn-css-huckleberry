@@ -32,10 +32,26 @@ header > .max-width-wrapper {
 main {
   background: gray;
   border-top: 8px solid black;
+  height: calc(100vh - (172px + 80px + 16px));
 }
 
 .card {
-  margin: 0 auto;
+  box-sizing: content-box;
+  margin: 2rem auto;
   max-width: 1200px;
-  height: calc(100vh - (172px + 80px + 16px));
+  background: white;
+  border-bottom: 8px solid darkgrey;
+  padding: 1rem;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.indented-heading {
+  display: inline-block;
+  background-color: greenyellow;
+  border-bottom: 8px solid yellow;
+  padding: 1rem;
+  margin-inline: -1.5rem !important;
 }
