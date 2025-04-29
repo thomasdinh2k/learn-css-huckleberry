@@ -10,3 +10,32 @@ body {
 }
 
 /* Add styles here! */
+header .max-width-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header > .max-width-wrapper {
+  margin-top: 5rem;
+}
+
+.intro-chunk p {
+  max-width: 20rem;
+  line-height: 1.5;
+}
+
+.intro-chunk p strong {
+  color: green;
+  cursor: pointer;
+}
+
+main {
+  background: gray;
+  border-top: 8px solid black;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: calc(100vh - (172px + 80px + 16px));
+}
