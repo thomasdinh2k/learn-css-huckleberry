@@ -19,11 +19,13 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
 /* Add styles here! */
 h1.title {
   margin-block-end: 3rem;
+  font-size: 2rem;
 }
 
 header .max-width-wrapper {
@@ -52,7 +54,11 @@ header > .max-width-wrapper {
 main {
   background: var(--color-gray-500);
   border-top: 8px solid var(--color-gray-300);
-  height: calc(100vh - (172px + 80px + 16px));
+  height: calc(100vh - (
+    5rem +
+    248px +
+    60px
+  ));
 }
 
 .card {
@@ -62,9 +68,12 @@ main {
   background: var(--color-gray-100);
   border-bottom: 8px solid darkgrey;
   padding: 1rem;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .card h2 {
+  font-size: 24px;
   margin: 0;
 }
 
