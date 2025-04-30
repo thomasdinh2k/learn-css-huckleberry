@@ -1,3 +1,15 @@
+:root {
+  --color-primary: hsl(160deg, 100%, 30%);
+  --color-secondary-light: hsl(45deg, 100%, 50%);
+  --color-secondary-dark: hsl(45deg, 100%, 40%);
+  --color-gray-900: hsl(0deg, 0%, 0%);
+  --color-gray-800: hsl(0deg, 0%, 10%);
+  --color-gray-600: hsl(0deg, 0%, 30%);
+  --color-gray-500: hsl(0deg, 0%, 40%);
+  --color-gray-300: hsl(0deg, 0%, 60%);
+  --color-gray-100: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -10,6 +22,10 @@ body {
 }
 
 /* Add styles here! */
+h1.title {
+  margin-block-end: 3rem;
+}
+
 header .max-width-wrapper {
   margin: 0 auto;
   max-width: 1200px;
@@ -19,19 +35,23 @@ header > .max-width-wrapper {
   margin-top: 5rem;
 }
 
+.intro-chunk {
+  margin-block-end: 3rem;
+}
+
 .intro-chunk p {
   max-width: 20rem;
   line-height: 1.5;
 }
 
 .intro-chunk p strong {
-  color: green;
+  color: var(--color-primary);
   cursor: pointer;
 }
 
 main {
-  background: gray;
-  border-top: 8px solid black;
+  background: var(--color-gray-500);
+  border-top: 8px solid var(--color-gray-300);
   height: calc(100vh - (172px + 80px + 16px));
 }
 
@@ -39,7 +59,7 @@ main {
   box-sizing: content-box;
   margin: 2rem auto;
   max-width: 1200px;
-  background: white;
+  background: var(--color-gray-100);
   border-bottom: 8px solid darkgrey;
   padding: 1rem;
 }
@@ -50,8 +70,8 @@ main {
 
 .indented-heading {
   display: inline-block;
-  background-color: greenyellow;
-  border-bottom: 8px solid yellow;
+  background-color: var(--color-secondary-light);
+  border-bottom: 8px solid var(--color-secondary-dark);
   padding: 1rem;
   margin-inline: -1.5rem !important;
 }
