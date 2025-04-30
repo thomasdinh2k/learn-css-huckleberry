@@ -19,7 +19,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-size: 20px;
 }
 
 /* Add styles here! */
@@ -28,17 +27,25 @@ h1.title {
   font-size: 2rem;
 }
 
+p {
+  font-size: 1.25rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 header .max-width-wrapper {
   margin: 0 auto;
   max-width: 1200px;
 }
 
 header > .max-width-wrapper {
-  margin-top: 5rem;
+  margin-top: 96px;
 }
 
 .intro-chunk {
-  margin-block-end: 3rem;
+  margin-block-end: 4rem;
 }
 
 .intro-chunk p {
@@ -67,7 +74,8 @@ main {
   max-width: 1200px;
   background: var(--color-gray-100);
   border-bottom: 8px solid darkgrey;
-  padding: 1rem;
+  padding: 1.5rem;
+  padding-top: 8px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -81,6 +89,6 @@ main {
   display: inline-block;
   background-color: var(--color-secondary-light);
   border-bottom: 8px solid var(--color-secondary-dark);
-  padding: 1rem;
-  margin-inline: -1.5rem !important;
+  padding: 1rem 2rem;
+  margin-inline: calc(-1.5rem - 8px) !important;
 }
